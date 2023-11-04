@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822602058356",
+    "project_id": "emailandpasswordrealtime",
+    "storage_bucket": "emailandpasswordrealtime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822602058356:android:f2748535c17649f3c9df21",
+        "android_client_info": {
+          "package_name": "com.programmingz.emailandpasswordrealtimedatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7rteG2q6G-AVIu8LCcVeUXvodwOhA7TQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
