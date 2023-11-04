@@ -12,7 +12,7 @@ import com.google.firebase.ktx.Firebase
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var etMail: EditText
-    private lateinit var etPassword: EditText
+    private lateinit var etPass: EditText
     private lateinit var signUp: Button
     private lateinit var login: Button
     private lateinit var auth: FirebaseAuth
@@ -24,7 +24,7 @@ class LoginActivity : AppCompatActivity() {
         auth = Firebase.auth
 
         etMail = findViewById(R.id.etEmail)
-        etPassword = findViewById(R.id.etPassword)
+        etPass = findViewById(R.id.etPass)
         signUp = findViewById(R.id.signUp)
         login = findViewById(R.id.login)
 
@@ -34,7 +34,7 @@ class LoginActivity : AppCompatActivity() {
 
         login.setOnClickListener {
             val email = etMail.text.toString().trim()
-            val pass = etPassword.text.toString().trim()
+            val pass = etPass.text.toString().trim()
 
 
                 auth.signInWithEmailAndPassword(email,pass).addOnCompleteListener(this) { task->

@@ -39,7 +39,7 @@
             android:textSize="22sp" />
 
         <EditText
-            android:id="@+id/etPassword"
+            android:id="@+id/etPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"

@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
             dName.text = name
             dEmail.text = email
             dAddress.text = address
+
         }.addOnFailureListener {
             Toast.makeText(this, it.toString(),Toast.LENGTH_SHORT).show()
         }

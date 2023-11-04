@@ -26,7 +26,7 @@ class SinUpActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sin_up)
+        setContentView(R.layout.activity_signup)
 
         tvEmail = findViewById(R.id.dEmail)
         tvPassword = findViewById(R.id.tvPassword)
